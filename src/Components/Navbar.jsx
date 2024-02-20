@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <header className="">
         <nav
-          className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8 bg-slate-50 fixed top-0 left-0 w-full z-30"
+          className="mx-auto flex items-center justify-between px-6 py-3 lg:px-8 bg-slate-50 fixed top-0 left-0 w-full z-30"
           aria-label="Global"
         >
           <div className="hidden lg:flex lg:flex-1">

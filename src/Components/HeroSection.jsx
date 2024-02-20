@@ -4,8 +4,8 @@ import hero from "../Assets/hero.jpg";
 const HeroSection = ({ heading }) => {
   return (
     <>
-      <section className="hero-section px-4 py-28 lg:px-0 h-[200vh]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:p-32 xl:p-16">
+      <section className="hero-section h-screen px-36 py-40 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="hero-item-1">
             <div className="mx-auto max-w-lg lg:max-w-none">
               <p className="mt-2 text-base lg:text-lg leading-6 lg:leading-8 text-gray-600">
@@ -28,7 +28,7 @@ const HeroSection = ({ heading }) => {
               <img
                 src={hero}
                 alt=""
-                className="w-full h-100 right-10 z-10 top-8 absolute hero-img"
+                className="w-80 h-100 right-10 z-10 top-8 absolute hero-img"
               />
             </div>
           </div>

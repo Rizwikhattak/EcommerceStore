@@ -1,0 +1,34 @@
+import React from "react";
+import {
+  Gi3DMeeple,
+  Gi3DStairs,
+  GiAbbotMeeple,
+  GiAbstract027,
+  GiAbstract004,
+} from "react-icons/gi";
+
+const Companies = () => {
+  return (
+    <>
+      <section className="companies px-36 py-14 mt-28 bg-slate-50 flex align-middle justify-between">
+        <div className="comapny-1">
+          <Gi3DMeeple className="h-10 w-10" />
+        </div>
+        <div className="comapny-2">
+          <Gi3DStairs className="h-10 w-10" />
+        </div>
+        <div className="comapny-3">
+          <GiAbbotMeeple className="h-10 w-10" />
+        </div>
+        <div className="comapny-4">
+          <GiAbstract004 className="h-10 w-10" />
+        </div>
+        <div className="comapny-5">
+          <GiAbstract027 className="h-10 w-10" />
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Companies;
