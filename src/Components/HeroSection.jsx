@@ -4,7 +4,7 @@ import hero from "../Assets/hero.jpg";
 const HeroSection = ({ heading }) => {
   return (
     <>
-      <section className="hero-section h-screen px-36 py-40 ">
+      <section className="hero-section h-screen px-6 lg:px-36 py-40 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="hero-item-1">
             <div className="mx-auto max-w-lg lg:max-w-none">

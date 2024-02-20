@@ -6,7 +6,7 @@ import { RiSecurePaymentLine } from "react-icons/ri";
 const Features = () => {
   return (
     <>
-      <section className="features px-36">
+      <section className="features px-6 lg:px-36">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           <div className="bg-slate-50 p-5 rounded-md flex flex-row w-auto md:flex-col  justify-center items-center">
             <div className="logo w-10 h-10 flex items-center justify-center bg-white rounded-full">
