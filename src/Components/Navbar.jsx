@@ -78,7 +78,7 @@ const Navbar = () => {
               Contact
             </NavLink>
             <NavLink to="/Login">
-              <button className="button px-5 py-1 rounded-sm flex align-middle justify-center text-center bg-blue-500 hover:bg-blue-400 transition-colors text-white">
+              <button className="py-2 px-5 text-white bg-blue-500 hover:border-blue-500 hover:border-2 hover:bg-white hover:text-blue-500 transition-colors rounded-md">
                 Login
               </button>
             </NavLink>
