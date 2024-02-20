@@ -51,7 +51,7 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden lg:flex lg:items-center lg:gap-x-12">
             <NavLink
               to="/"
               className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-500"
@@ -76,6 +76,11 @@ const Navbar = () => {
               className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-500"
             >
               Contact
+            </NavLink>
+            <NavLink to="/Login">
+              <button className="button px-5 py-1 rounded-sm flex align-middle justify-center text-center bg-blue-500 hover:bg-blue-400 transition-colors text-white">
+                Login
+              </button>
             </NavLink>
             <NavLink
               to="/Cart"
@@ -141,6 +146,11 @@ const Navbar = () => {
               className=" text-gray-900 hover:text-blue-500"
             >
               Contact
+            </NavLink>
+            <NavLink to="/Login">
+              <button className="button px-5 py-2 bg-blue-500 hover:bg-blue-400 transition-colors text-white">
+                Login
+              </button>
             </NavLink>
             <NavLink
               to="/Contact"

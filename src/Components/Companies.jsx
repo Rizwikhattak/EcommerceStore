@@ -11,6 +11,9 @@ const Companies = () => {
   return (
     <>
       <section className="companies px-36 py-14 mt-28 bg-slate-50">
+        <h1 className="text-center text-xl mb-10">
+          Trusted by 1000+ Companies
+        </h1>
         <div class="flex flex-wrap justify-center lg:justify-between gap-14 items-center w-full">
           <div className="comapny-1">
             <Gi3DMeeple className="h-10 w-10" />

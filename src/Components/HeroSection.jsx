@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../Assets/hero.jpg";
+import { NavLink } from "react-router-dom";
 
 const HeroSection = ({ heading }) => {
   return (
@@ -20,6 +21,11 @@ const HeroSection = ({ heading }) => {
                 exercitationem placeat consectetur nulla deserunt vel. Iusto
                 corrupti dicta.
               </p>
+              <NavLink to="/Products">
+                <button className="button rounded-sm my-5 px-5 py-2 bg-blue-500 hover:bg-blue-400 transition-colors text-white">
+                  Shop Now
+                </button>
+              </NavLink>
             </div>
           </div>
           <div className="hero-item-2 p-10">
