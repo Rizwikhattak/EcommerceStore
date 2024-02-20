@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="contact py-40">
+      <section className="contact pt-40">
         <h1 className="text-center text-xl font-bold mb-8">Contact Us</h1>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.5361714689648!2d73.07643427427936!3d33.64326657331369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9528605276bb%3A0xb4f3c817d1543c9e!2sBarani%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2s!4v1708458459234!5m2!1sen!2s"
@@ -17,7 +17,7 @@ const Contact = () => {
         ></iframe>
         <form
           action="https://formspree.io/f/xjvnwdan"
-          className="flex flex-col gap-6 justify-center items-center p-5 py-20"
+          className="flex flex-col gap-6 justify-center items-center px-5 pt-20"
           method="POST"
         >
           <input

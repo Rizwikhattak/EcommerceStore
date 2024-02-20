@@ -121,15 +121,15 @@ const Navbar = () => {
           </div>
 
           <div
-            className="fixed top-24 left-[50%] transform -translate-x-1/2 rounded-md py-3 px-6 w-80 bg-[rgba(96,203,222,0.1)] backdrop-blur-[10px] flex flex-col gap-y-6 items-center justify-center z-30"
+            className="fixed top-24 left-[50%] transform -translate-x-1/2 rounded-md py-3 px-6 w-80 bg-[rgba(96,203,222,0.1)] backdrop-blur-[10px] flex flex-col gap-y-6 items-center justify-center z-30 text-lg"
             style={{
               transition: "height 0.3s ease-in, visibility 0.3s ease",
               overflow: "hidden",
-              height: IsOpen ? "250px" : "0",
+              height: IsOpen ? "350px" : "0",
               visibility: IsOpen ? "visible" : "hidden", // Control visibility
             }}
           >
-            <NavLink to="/" className=" text-gray-900 hover:text-blue-500">
+            <NavLink to="/" className=" text-black  hover:text-blue-500">
               Home
             </NavLink>
             <NavLink to="/About" className=" text-gray-900 hover:text-blue-500">

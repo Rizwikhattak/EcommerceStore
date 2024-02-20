@@ -7,6 +7,8 @@ import Products from "./Products";
 import SingleProduct from "./SingleProduct";
 import Header from "./Header";
 import Cart from "./Cart";
+import Footer from "./Components/Footer";
+import ErrorPage from "./ErrorPage";
 function App() {
   return (
     <>
@@ -20,7 +22,9 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/SingleProduct/:id" element={<SingleProduct />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
