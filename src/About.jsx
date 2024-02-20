@@ -1,7 +1,7 @@
 import React from "react";
-
+import HeroSection from "./Components/HeroSection"
 const About = () => {
-  return <div>About</div>;
+  return <HeroSection heading={'Market'}/>;
 };
 
 export default About;

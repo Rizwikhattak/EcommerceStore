@@ -1,10 +1,10 @@
 import React from "react";
 import hero from "../Assets/hero.jpg";
 
-const HeroSection = () => {
+const HeroSection = ({ heading }) => {
   return (
     <>
-      <section className="hero-section px-4 py-8 lg:px-0 h-[200vh]">
+      <section className="hero-section px-4 py-28 lg:px-0 h-[200vh]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:p-32 xl:p-16">
           <div className="hero-item-1">
             <div className="mx-auto max-w-lg lg:max-w-none">
@@ -12,7 +12,7 @@ const HeroSection = () => {
                 Welcome to
               </p>
               <h2 className="text-2xl lg:text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Ecommerce Store
+                Ecommerce {heading}
               </h2>
               <p className="mt-5 text-sm lg:text-base leading-6 lg:leading-7 text-gray-600">
                 Illo sint voluptas. Error voluptates culpa eligendi. Hic vel
