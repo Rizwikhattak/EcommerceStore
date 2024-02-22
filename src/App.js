@@ -9,22 +9,24 @@ import Header from "./Header";
 import Cart from "./Cart";
 import Footer from "./Components/Footer";
 import ErrorPage from "./ErrorPage";
+import { ProductProvider } from "./Context/ProductContext";
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Products" element={<Products />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Cart" element={<Cart />} />
-          <Route path="/SingleProduct/:id" element={<SingleProduct />} />
-          <Route path="*" element={<ErrorPage />} />
-        </Routes>
-        <Footer />
+        <ProductProvider>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Products" element={<Products />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Cart" element={<Cart />} />
+            <Route path="/SingleProduct/:id" element={<SingleProduct />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
+          <Footer />
+        </ProductProvider>
       </BrowserRouter>
     </>
   );
