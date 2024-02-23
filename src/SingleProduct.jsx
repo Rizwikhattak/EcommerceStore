@@ -1,7 +1,7 @@
 import React from "react";
 
 const SingleProduct = () => {
-  return <div>SingleProduct</div>;
+  return <div className="h-screen py-40">SingleProduct</div>;
 };
 
 export default SingleProduct;

@@ -10,7 +10,7 @@ import {
 const Companies = () => {
   return (
     <>
-      <section className="companies px-36 py-14 mt-28 bg-slate-50">
+      <section className="companies px-36 py-14 bg-slate-50">
         <h1 className="text-center text-xl mb-10">
           Trusted by 1000+ Companies
         </h1>
