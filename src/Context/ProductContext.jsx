@@ -32,6 +32,7 @@ const ProductProvider = ({ children }) => {
   async function getSingleProduct(url) {
     dispatch({ type: "single_loading" });
     try {
+      console.log(url);
       const res = await axios.get(url);
       const singleProduct = await res.data;
       dispatch({ type: "set_single_product", payload: singleProduct });
@@ -45,8 +46,8 @@ const ProductProvider = ({ children }) => {
   }, []);
   return (
     <>
-      {console.log("STATEEEEEEEEEEEE:", state)}
-      <ProductContext.Provider value={{ state, getSingleProduct }}>
+      {console.log("STATEEEEEEEEEEEE:", { ...state })}
+      <ProductContext.Provider value={{ ...state, getSingleProduct }}>
         {children}
       </ProductContext.Provider>
     </>
