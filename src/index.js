@@ -2,11 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { ProductProvider } from "./Context/ProductContext";
+import { FilterProductProvider } from "./Context/FilterProductContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <ProductProvider>
+      <FilterProductProvider>
+        <App />
+      </FilterProductProvider>
+    </ProductProvider>
   </React.StrictMode>
 );
 
