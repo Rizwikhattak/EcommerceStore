@@ -11,7 +11,7 @@ const Products = () => {
 
   return (
     <>
-      <section className="products px-52 py-40 grid grid-cols-4 gap-5">
+      <section className="products px-40 py-40 grid grid-cols-4 gap-5">
         <div className="filter-srction col-span-1">
           <Filters />
         </div>
