@@ -11,7 +11,7 @@ const ListViewProducts = ({ products }) => {
           ({ id, image, category, name, price, description }, index) => {
             return (
               <NavLink to={`/SingleProduct/${id}`}>
-                <div className=" product w-full p-10 flex gap-10 bg-white relative overflow-hidden group border-gray-400 border-[1px]">
+                <div className=" product w-full p-10 flex gap-10 bg-slate-50 relative overflow-hidden group border-gray-400 border-[1px] ">
                   <figure className="relative w-[80%] overflow-hidden group-hover:scale-105 transition-transform duration-200">
                     <img
                       src={image}
